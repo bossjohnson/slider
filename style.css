@@ -10,12 +10,15 @@
 }
 div.cell {
     color: white;
+    border: 1px solid white;
     position: absolute;
     text-align: center;
     font-size: 2em;
     height: 33.333%;
     width: 33.333%;
     background-color: black;
+    box-sizing: border-box;
+    opacity: .5;
 }
 div.empty {
     display: none;

@@ -1,10 +1,12 @@
 $(document).ready(function() {
-    // TODO: Randomize starting grid
+    // TODO: Add image to cells
+    // TODO: Randomize starting positions
+    // TODO: Add functionality to check puzzle completion
     var grid = [
         [1, 2, 3],
         [4, 5, 6],
         [7, 8, 9]
-    ]
+    ];
     $('div.cell').on('click', function() {
         var $row = $(this).attr('class').match(/row\d/)[0][3];
         var $col = $(this).attr('class').match(/col\d/)[0][3];
