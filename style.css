@@ -10,34 +10,35 @@
 }
 div.cell {
     color: white;
-    border: 1px solid white;
     position: absolute;
     text-align: center;
     font-size: 2em;
     height: 33.333%;
     width: 33.333%;
-    background-color: black;
+    background-image: url("images/grumpy_cat.jpg");
+    background-size: 300% 300%;
     box-sizing: border-box;
-    opacity: .5;
+    background-repeat: no-repeat;
 }
+
 div.empty {
     display: none;
 }
 div.row1 {
-  top: 0;
+    top: 0;
 }
 div.row2 {
-  top: 33.333%;
+    top: 33.333%;
 }
 div.row3 {
-  top: 66.666%;
+    top: 66.666%;
 }
 div.col1 {
-  left: 0;
+    left: 0;
 }
 div.col2 {
-  left: 33.333%;
+    left: 33.333%;
 }
 div.col3 {
-  left: 66.666%;
+    left: 66.666%;
 }
