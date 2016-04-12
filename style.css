@@ -42,3 +42,25 @@ div.col2 {
 div.col3 {
     left: 66.666%;
 }
+
+#d2 {
+  background-position: 50% 0;
+}
+#d3 {
+  background-position: 100% 0;
+}
+#d4 {
+  background-position: 0 50%;
+}
+#d5 {
+  background-position: 50% 50%;
+}
+#d6 {
+  background-position: 100% 50%;
+}
+#d7 {
+  background-position: 0 100%;
+}
+#d8 {
+  background-position: 50% 100%;
+}
